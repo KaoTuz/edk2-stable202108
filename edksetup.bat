@@ -19,6 +19,11 @@
 
 @echo off
 
+@REM N001 Neil Add -s
+set NASM_PREFIX=%CD%\BaseTools\Bin\nasm\
+set IASL_PREFIX=%CD%\BaseTools\Bin\ASL\
+@REM N001 Neil Add -e
+
 @REM
 @REM Set the WORKSPACE to the current working directory
 @REM
